@@ -6,13 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Backgrounds & Shadows</title>
+    <link href="output.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Background Classes -->
 
+    <div
+      class="h-screen w-screen bg-red-300 bg-no-repeat bg-cover bg-center"
+      style="
+        background-image: url(../../tailwind-sandbox-starter/assets/img/img4.jpg);
+      "
+    >
+      sahil
+    </div>
+
     <!-- Gradients -->
 
+    <div class="h-24 bg-gradient-to-r from-red-500 to-green-400 relative">
+      <p class="absolute w-200 h-300 bg-yellow-500 top-0 right-0 p-4">child</p>
+    </div>
+
+    <div class="mt-4 bg-gradient-to-l from-blue-200 to-yellow-400 h-20">
+      sahil
+    </div>
+
     <!-- Shadows -->
+
+    <div class="w-80 m-20 p-12 shadow-lg">
+      <img
+        src="/tailwind-sandbox-starter/assets/img/img2.jpg"
+        class="w-full"
+        alt=""
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+        nesciunt modi facere cum voluptate distinctio exercitationem excepturi
+        rerum, cupiditate atque, nulla aut ducimus deserunt eligendi libero non
+        molestiae, fuga repellendus.
+      </p>
+    </div>
+
+    <div class="flex justify-center"></div>
 
     <!-- Mix Blend -->
   </body>
