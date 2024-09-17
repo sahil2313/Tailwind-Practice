@@ -1,7 +1,13 @@
+import { Header } from './components/Header';
+import { Home } from './components/Home';
+import { CardOverview } from './components/CardOverview';
+
 export default function App() {
   return (
     <div>
-      <h1>Sahil</h1>
+      <Header />
+      <Home />
+      <CardOverview />
     </div>
   );
 }
