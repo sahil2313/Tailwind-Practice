@@ -7,11 +7,13 @@ export const Header = () => {
       <a href="/" className="tracking-widest">
         Fast React Pizza Co.
       </a>
-      <input
-        type="text"
-        placeholder="search order #"
-        className="border-grey-500 block border"
-      />
+      <div>
+        <input
+          type="text"
+          placeholder="search order #"
+          className="border-grey-500 block border"
+        />
+      </div>
       <Username />
     </header>
   );

@@ -1,13 +1,9 @@
-import { Header } from './components/Header';
-import { Home } from './components/Home';
-import { CardOverview } from './components/CardOverview';
+import AppLayout from './components/ui/AppLayout';
 
 export default function App() {
   return (
     <div>
-      <Header />
-      <Home />
-      <CardOverview />
+      <AppLayout />
     </div>
   );
 }

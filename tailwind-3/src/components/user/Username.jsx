@@ -2,8 +2,8 @@ import React from 'react';
 
 const Username = () => {
   return (
-    <div>
-      <p className="hidden text-sm font-semibold md:block">Jonas</p>
+    <div className="hidden text-sm font-semibold md:block">
+      <p>Jonas</p>
     </div>
   );
 };
